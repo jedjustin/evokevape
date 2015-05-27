@@ -218,7 +218,7 @@ body {
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 </head>
   
-  <body class="page-partner " style="height: 1504px;"><form action="http://lotolabs.com/checkout" method="post" id="cart" class="mm-menu mm-horizontal mm-black mm-ismenu mm-offcanvas mm-bottom mm-front"><ul data-money-format="$ {{amount}}" data-shop-currency="USD" data-shop-name="Loto Labs" class="mm-list mm-panel mm-opened mm-current" id="mm-1">
+  <body class="page-partner " style="height: 1000px;"><form action="http://lotolabs.com/checkout" method="post" id="cart" class="mm-menu mm-horizontal mm-black mm-ismenu mm-offcanvas mm-bottom mm-front"><ul data-money-format="$ {{amount}}" data-shop-currency="USD" data-shop-name="Loto Labs" class="mm-list mm-panel mm-opened mm-current" id="mm-1">
               <li class="mm-subtitle"><a class="continue ss-icon" href="http://lotolabs.com/pages/partners#cart">␡</a></li>
 
               
@@ -328,7 +328,9 @@ body {
           
 
 <div>
-  
+  <br>
+  <br>
+  <br>
     <h1 class=" headline center"><font color="white">Reserve Your Evoke</font></h1>
     <p style="text-align: center;"><img src="./index_files/Line_Divider_LEFT_WHITE.png"></p>
   <div class="eight columns alpha">
@@ -344,7 +346,10 @@ body {
 
 
 <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
-<label for="MERGE0"><font color="white">Email Address</font> <span class="req asterisk">*</span></label>
+
+<p for="MERGE0"><font color="white">*ALL FIELDS REQUIRED</font></p>
+
+<label for="MERGE0"><font color="white">Email Address</font></label>
 <div class="field-group">
     <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
     
@@ -356,7 +361,7 @@ body {
 
 
 <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-1">
-<label for="MERGE1"><font color="white">First Name</font> <span class="req asterisk">*</span></label>
+<label for="MERGE1"><font color="white">First Name</font></label>
 <div class="field-group">
     <input type="text" name="MERGE1" id="MERGE1" size="25" value="">
     
@@ -368,7 +373,7 @@ body {
 
 
 <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-2">
-<label for="MERGE2"><font color="white">Last Name </font><span class="req asterisk">*</span></label>
+<label for="MERGE2"><font color="white">Last Name</font></label>
 <div class="field-group">
     <input type="text" name="MERGE2" id="MERGE2" size="25" value="">
     
@@ -379,10 +384,27 @@ body {
 
 
 
-<div class="mergeRow dojoDndItem mergeRow-dropdown" id="mergeRow-3">
-<label for="MERGE3"><font color="white">Product</font> <span class="req asterisk">*</span></label>
+<div class="mergeRow dojoDndItem mergeRow-radio" id="mergeRow-4">
+<label for="MERGE4"><font color="white">Product</font></label>
 <div class="field-group">
-    <select class="select-small" id="MERGE3" name="MERGE3"><option value="Evoke E-Liquid - $299">Evoke E-Liquid - $299</option><option value="Evoke Dry Herb - $299">Evoke Dry Herb - $299</option><option value="Evoke Concentrates - $299">Evoke Concentrates - $299</option><option value="Evoke 420 Package - $299">Evoke 420 Package - $299</option><option value="Induction Core - Dry Herb - $99">Induction Core - Dry Herb - $99</option><option value="Induction Core - Concentrates - $99">Induction Core - Concentrates - $99</option><option value="Induction Core - E-Liquid - $99">Induction Core - E-Liquid - $99</option></select>
+    <div class="interestgroup_field radio-group left column" id="MERGE4">
+      <label class="radio" for="MERGE4-0"><input type="radio" name="MERGE4" id="MERGE4-0" value="Evoke E-Liquid - $299" class="av-radio"><span><font color="white">Evoke E-Liquid - $299</font></span></label>
+
+      <label class="radio" for="MERGE4-1"><input type="radio" name="MERGE4" id="MERGE4-1" value="Evoke Dry Herb - $299" class="av-radio"><span><font color="white">Evoke Dry Herb - $299</font></span></label>
+
+      <label class="radio" for="MERGE4-2"><input type="radio" name="MERGE4" id="MERGE4-2" value="Evoke Concentrates - $299" class="av-radio"><span><font color="white">Evoke Concentrates - $299</font></span></label>
+    </div>
+    <div class="interestgroup_field radio-group right column">
+      <label class="radio" for="MERGE4-3"><input type="radio" name="MERGE4" id="MERGE4-3" value="Evoke 420 Package - $299" class="av-radio"><span><font color="white">Evoke 420 Package - $299</font></span></label>
+
+      <label class="radio" for="MERGE4-4"><input type="radio" name="MERGE4" id="MERGE4-4" value="Induction Core - Dry Herb - $99" class="av-radio"><span><font color="white">Induction Core - Dry Herb - $99</font></span></label>
+
+      <label class="radio" for="MERGE4-5"><input type="radio" name="MERGE4" id="MERGE4-5" value="Induction Core - Concentrates - $99" class="av-radio"><span><font color="white">Induction Core - Concentrates - $99</font></span></label>
+
+      <label class="radio" for="MERGE4-6"><input type="radio" name="MERGE4" id="MERGE4-6" value="Induction Core - E-Liquid - $99" class="av-radio"><span><font color="white">Induction Core - E-Liquid - $99</font></span></label>
+    </div>
+
+
     
     
 </div>
@@ -394,10 +416,13 @@ body {
 
 
 </div>
+
+
+
 
 
 <div class="submit_container show">
-<input type="submit" class="button" name="submit" value="submit">
+<input type="submit" class="button" name="submit" value="SUBMIT">
 </div>
 </form>
 
